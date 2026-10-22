@@ -1,0 +1,6 @@
+# Data pulled from your TV stays on your computer.
+backup/
+state/
+shots/
+plan/
+__pycache__/

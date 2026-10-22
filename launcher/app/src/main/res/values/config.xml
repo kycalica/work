@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dock slots, and columns in the app grid below it: 4, 5, 6 or 7. -->
+    <integer name="columns">4</integer>
+
+    <!-- Dock apps, left to right, by package name. Apps that aren't installed
+         are skipped and the free slots are filled with the first other apps.
+         tools/tv.py 'pm list packages -3' lists what is installed. -->
+    <string-array name="dock_apps">
+        <item>com.google.android.youtube.tv</item>
+        <item>com.netflix.ninja</item>
+        <item>com.amazon.amazonvideo.livingroom</item>
+        <item>com.android.vending</item>
+    </string-array>
+
+    <!-- Packages to leave out of the grid (for example ones you disabled but
+         want to keep installed, or duplicates). -->
+    <string-array name="hidden_apps">
+    </string-array>
+
+    <!-- The manufacturer's TV app, opened for "Live TV" when the TV ignores the
+         standard TV input intent. Empty means use the standard intent only. -->
+    <string name="tv_app_package"></string>
+
+    <!-- Also list phone apps that have no TV banner. -->
+    <bool name="include_phone_apps">false</bool>
+</resources>

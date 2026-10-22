@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="side_margin">64dp</dimen>
+    <dimen name="tile_gap">14dp</dimen>
+    <dimen name="dock_bottom">28dp</dimen>
+    <dimen name="dock_band_pad">14dp</dimen>
+    <dimen name="dock_band_radius">28dp</dimen>
+    <dimen name="grid_gap">40dp</dimen>
+    <dimen name="highlight_pad">6dp</dimen>
+</resources>
