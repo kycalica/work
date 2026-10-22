@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Empty space above the dock, with the focused dock app's name and its glow. -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clipChildren="false">
+
+    <View
+        android:id="@+id/glow"
+        android:layout_width="720dp"
+        android:layout_height="360dp"
+        android:layout_gravity="bottom|start"
+        android:layout_marginStart="-200dp"
+        android:layout_marginBottom="-140dp" />
+
+    <TextView
+        android:id="@+id/dock_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="12dp"
+        android:paddingStart="@dimen/tile_gap"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/text_primary"
+        android:textSize="48sp" />
+</FrameLayout>
